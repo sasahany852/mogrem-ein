@@ -127,7 +127,7 @@ class ModBot extends discord_js_1.Client {
     async deployCommands(commands) {
         try {
             console.log(`Started refreshing ${commands.length} application (/) commands.`);
-            const rest = new discord_js_1.REST().setToken(env.default.token);
+            const rest = new discord_js_1.REST().setToken(config_1.default.token);
             await rest.put(discord_js_1.Routes.applicationCommands(config_1.default.clientId), { body: commands });
             console.log('Successfully reloaded application (/) commands.');
         }
@@ -636,7 +636,7 @@ class ModBot extends discord_js_1.Client {
                 }
             });
             this.on(discord_js_1.Events.VoiceStateUpdate, tempChannelHandler_1.handleVoiceStateUpdate);
-            await this.login(.env.default.token);
+            await this.login(config_1.default.token);
             console.log(`Logged in as ${this.user?.tag}`);
             const dashboard = new server_1.Dashboard(this);
             dashboard.start();
@@ -685,4 +685,3 @@ process.on('SIGINT', async () => {
     await bot.destroy();
     process.exit(0);
 });
-const mySecret = process.env['token']
