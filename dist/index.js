@@ -685,6 +685,4 @@ process.on('SIGINT', async () => {
     await bot.destroy();
     process.exit(0);
 });
-{
- TOKEN:
-    process.env.TOKEN } 
+const mySecret = process.env['token']
