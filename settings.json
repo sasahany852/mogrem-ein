@@ -1,0 +1,772 @@
+{
+    "commands": {
+        "user": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "server": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "avatar": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "banner": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "roles": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "ping": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "kick": {
+            "enabled": false,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "ban": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "timeout": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "lock": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "unlock": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "hide": {
+            "enabled": false,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "unhide": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "clear": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "setnick": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "role": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "rrole": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "rtimeout": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "mute": {
+            "enabled": false,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "unmute": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "move": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "warn": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "warns": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "unwarn": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "unban": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "apply": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 10,
+            "category": "Admin",
+            "userPermissions": [
+                "Administrator"
+            ],
+            "botPermissions": [
+                "SendMessages",
+                "EmbedLinks",
+                "ManageMessages"
+            ],
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        },
+        "ticket": {
+            "enabled": true,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        }
+    },
+    "autoRoles": {
+        "enabled": true,
+        "members": {
+            "enabled": true,
+            "roleIds": [
+                "1133013867644063815"
+            ]
+        },
+        "bots": {
+            "enabled": true,
+            "roleIds": [
+                "1167114547736354877"
+            ]
+        }
+    },
+    "defaultLanguage": "ar",
+    "supportedLanguages": [
+        "ar"
+    ],
+    "logs": {
+        "enabled": true,
+        "messageDelete": {
+            "enabled": true,
+            "channelId": "1386897171890307112",
+            "color": "#ff0000",
+            "ignoreBots": true,
+            "ignoredChannels": []
+        },
+        "messageEdit": {
+            "enabled": true,
+            "channelId": "1386897171890307112",
+            "color": "#5e2626",
+            "ignoreBots": true,
+            "ignoredChannels": []
+        },
+        "roleCreate": {
+            "enabled": true,
+            "channelId": "1386897734472040489",
+            "color": "#2ecc71"
+        },
+        "roleDelete": {
+            "enabled": true,
+            "channelId": "1386897734472040489",
+            "color": "#e74c3c"
+        },
+        "roleUpdate": {
+            "enabled": true,
+            "channelId": "1386897734472040489",
+            "color": "#f1c40f"
+        },
+        "channelCreate": {
+            "enabled": true,
+            "channelId": "1386897007108690032",
+            "color": "#2ecc71"
+        },
+        "channelDelete": {
+            "enabled": true,
+            "channelId": "1386897007108690032",
+            "color": "#e74c3c"
+        },
+        "channelUpdate": {
+            "enabled": true,
+            "channelId": "1386897007108690032",
+            "color": "#f1c40f"
+        },
+        "memberJoin": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#2ecc71"
+        },
+        "memberLeave": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#e74c3c"
+        },
+        "roleGive": {
+            "enabled": true,
+            "channelId": "1386897734472040489",
+            "color": "#2ecc71"
+        },
+        "roleRemove": {
+            "enabled": true,
+            "channelId": "1386897734472040489",
+            "color": "#e74c3c"
+        },
+        "messageBulkDelete": {
+            "enabled": true,
+            "channelId": "",
+            "color": "#e74c3c"
+        },
+        "nicknameUpdate": {
+            "enabled": true,
+            "channelId": "",
+            "color": "#f1c40f"
+        },
+        "serverUpdate": {
+            "enabled": true,
+            "channelId": "",
+            "color": "#3498db"
+        },
+        "memberBan": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#e74c3c"
+        },
+        "memberUnban": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#2ecc71"
+        },
+        "memberKick": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#e67e22"
+        },
+        "memberTimeout": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#f1c40f"
+        },
+        "memberUntimeout": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#2ecc71"
+        },
+        "emojiCreate": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#2ecc71"
+        },
+        "emojiDelete": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#e74c3c"
+        },
+        "emojiUpdate": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#f1c40f"
+        },
+        "stickerCreate": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#2ecc71"
+        },
+        "stickerDelete": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#e74c3c"
+        },
+        "stickerUpdate": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#f1c40f"
+        },
+        "threadCreate": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#2ecc71"
+        },
+        "threadDelete": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#e74c3c"
+        },
+        "threadUpdate": {
+            "enabled": true,
+            "channelId": "1386898528688668762",
+            "color": "#f1c40f"
+        },
+        "voiceJoin": {
+            "enabled": true,
+            "channelId": "1386896767387177091",
+            "color": "#2ecc71"
+        },
+        "voiceLeave": {
+            "enabled": true,
+            "channelId": "1386896767387177091",
+            "color": "#e74c3c"
+        },
+        "voiceMove": {
+            "enabled": true,
+            "channelId": "1386896767387177091",
+            "color": "#f1c40f"
+        },
+        "voiceServerMute": {
+            "enabled": true,
+            "channelId": "1386896767387177091",
+            "color": "#f1c40f"
+        },
+        "voiceServerDeafen": {
+            "enabled": true,
+            "channelId": "1386896767387177091",
+            "color": "#f1c40f"
+        },
+        "inviteCreate": {
+            "enabled": true,
+            "channelId": "1386896767387177091",
+            "color": "#cc00ff"
+        }
+    },
+    "protection": {
+        "enabled": true,
+        "logChannelId": "",
+        "antispam": {
+            "enabled": true,
+            "limits": {
+                "messageLimit": 3,
+                "duplicateLimit": 2,
+                "timeWindow": 11000
+            },
+            "action": {
+                "type": "timeout",
+                "reason": "Antispam Protection Triggered",
+                "color": "#ff0000",
+                "duration": 7200000,
+                "ignoredRoles": [],
+                "ignoredChannels": []
+            }
+        },
+        "server": {
+            "enabled": true,
+            "limits": {
+                "updateLimit": 1,
+                "timeWindow": 10000
+            },
+            "action": {
+                "type": "timeout",
+                "reason": "Server Protection Triggered",
+                "color": "#ff0000",
+                "duration": 7200000,
+                "ignoredRoles": []
+            }
+        },
+        "antibot": {
+            "enabled": true,
+            "limits": {},
+            "action": {
+                "type": "kick",
+                "reason": "Antibot Protection Triggered",
+                "color": "#ff0000",
+                "ignoredRoles": [
+                    "1130875122060906566"
+                ]
+            },
+            "whitelistedBots": []
+        },
+        "channel": {
+            "enabled": true,
+            "limits": {
+                "createLimit": 4,
+                "deleteLimit": 3,
+                "updateLimit": 5,
+                "timeWindow": 10000
+            },
+            "action": {
+                "type": "kick",
+                "reason": "Channel Protection Triggered",
+                "color": "#ff0000",
+                "ignoredRoles": []
+            }
+        },
+        "role": {
+            "enabled": true,
+            "limits": {
+                "createLimit": 3,
+                "deleteLimit": 3,
+                "updateLimit": 5,
+                "addLimit": 5,
+                "removeLimit": 5,
+                "timeWindow": 10000
+            },
+            "action": {
+                "type": "kick",
+                "reason": "Role Protection Triggered",
+                "color": "#ff0000",
+                "ignoredRoles": []
+            }
+        },
+        "timeout": {
+            "enabled": true,
+            "limits": {
+                "timeoutLimit": 3,
+                "untimeoutLimit": 3,
+                "timeWindow": 10000
+            },
+            "action": {
+                "type": "kick",
+                "reason": "Timeout Protection Triggered",
+                "color": "#ff0000",
+                "ignoredRoles": []
+            }
+        },
+        "moderation": {
+            "enabled": false,
+            "limits": {
+                "kickLimit": 3,
+                "banLimit": 2,
+                "unbanLimit": 1,
+                "timeWindow": 10000
+            },
+            "action": {
+                "type": "ban",
+                "reason": "Moderation Protection Triggered",
+                "color": "#ff0000",
+                "ignoredRoles": []
+            }
+        }
+    },
+    "suggestions": {
+        "enabled": true,
+        "channels": [],
+        "thread": {
+            "enabled": true,
+            "name": "💬 Discussion: {title}",
+            "archiveDuration": 1440
+        },
+        "reactions": {
+            "enabled": true,
+            "upvote": "👍",
+            "downvote": "👎",
+            "star": "⭐"
+        },
+        "color": "#3498db",
+        "deleteOriginal": true,
+        "allowImages": true,
+        "maxImageSize": 2199023255552,
+        "requireContent": true,
+        "minContentLength": 10,
+        "maxContentLength": 2000,
+        "cooldown": 300000,
+        "minLength": 10,
+        "maxLength": 2000
+    },
+    "tempChannels": {
+        "enabled": true,
+        "parentChannelId": "1168962680787324998",
+        "category": "1168962274736742502",
+        "multipleAllowed": true,
+        "fullPermissions": true,
+        "defaultName": "🔊 {user}'s Channel",
+        "defaultUserLimit": 0,
+        "deleteWhenEmpty": true,
+        "deleteDelay": 1000,
+        "permissions": {
+            "enabledRoleIds": [],
+            "disabledRoleIds": []
+        },
+        "userPermissions": {
+            "manage": [
+                "ManageChannels",
+                "ManageRoles",
+                "MuteMembers",
+                "DeafenMembers",
+                "MoveMembers",
+                "PrioritySpeaker",
+                "Stream",
+                "Connect",
+                "Speak",
+                "UseVAD",
+                "ViewChannel"
+            ]
+        }
+    },
+    "autoReply": {
+        "enabled": true,
+        "mentionUser": true,
+        "replyToMessage": true,
+        "channels": {
+            "enabled": [],
+            "disabled": []
+        },
+        "roles": {
+            "enabled": [],
+            "disabled": []
+        },
+        "sections": {
+            "New Section": {
+                "enabled": true,
+                "triggers": [
+                    "A7A",
+                    "a7a",
+                    "احا"
+                ],
+                "responses": []
+            }
+        },
+        "matchType": "includes",
+        "caseSensitive": false,
+        "chance": 100,
+        "cooldown": 2000
+    },
+    "giveaway": {
+        "enabled": true,
+        "defaultDuration": 3600000,
+        "maxDuration": 2592000000,
+        "minWinners": 1,
+        "maxWinners": 10,
+        "aliases": [
+            "giveaway"
+        ],
+        "cooldown": 10000,
+        "requiredRole": "",
+        "buttons": {
+            "enter": "Enter",
+            "leave": "Leave",
+            "reroll": "Reroll",
+            "end": "End"
+        },
+        "embed": {
+            "color": "#00ff4c",
+            "thumbnail": "",
+            "footer": ""
+        },
+        "allowedChannels": [],
+        "blacklistedChannels": [],
+        "allowedRoles": [],
+        "blacklistedRoles": [],
+        "minimumAccountAge": 0,
+        "minimumGuildAge": 0,
+        "interaction": "buttons"
+    },
+    "apply": {
+        "enabled": true,
+        "embed": {
+            "color": "#3498db",
+            "thumbnail": "",
+            "footer": "Powered by Wick Studio",
+            "footerIcon": "",
+            "timestamp": true
+        },
+        "positions": []
+    },
+    "ticket": {
+        "enabled": true,
+        "embed": {
+            "color": "#3498db",
+            "thumbnail": "https://cdn.discordapp.com/attachments/1021169370229116939/1392384945128869961/90803f750821814a8304e9d3b44f6fde.webp?ex=686f5708&is=686e0588&hm=b01325fbb57bd0f4a88ff3ccacb39fa1214e20acd8ce113ede400d4dbb30b91c&",
+            "footer": "Support System",
+            "footerIcon": "https://cdn.discordapp.com/attachments/1021169370229116939/1392384945128869961/90803f750821814a8304e9d3b44f6fde.webp?ex=686f5708&is=686e0588&hm=b01325fbb57bd0f4a88ff3ccacb39fa1214e20acd8ce113ede400d4dbb30b91c&",
+            "timestamp": true
+        },
+        "sections": [
+            {
+                "enabled": true,
+                "name": "Support ",
+                "emoji": "👮",
+                "description": "ممنوع طلب رتبة إداريه ",
+                "categoryId": "1393338595539947601",
+                "logChannelId": "1393719486044962896",
+                "adminRoles": [
+                    "1130875122060906566",
+                    "1168957713871552623"
+                ],
+                "cooldown": 24,
+                "imageUrl": "https://media.discordapp.net/attachments/1019940136965898311/1393505419061891154/Screenshot_2025-07-12_111234.png?ex=68736a8d&is=6872190d&hm=c702f694753039c5b25ce1c4b9b1177e9269633d51b8c2e992335069508d09d0&=&format=webp&quality=lossless"
+            }
+        ],
+        "command": {
+            "enabled": false,
+            "aliases": [],
+            "cooldown": 5,
+            "permissions": {
+                "enabledRoleIds": [],
+                "disabledRoleIds": []
+            }
+        }
+    },
+    "rules": {
+        "enabled": true,
+        "interface": {
+            "type": "buttons",
+            "style": "Primary"
+        },
+        "mainEmbed": {
+            "title": "Server Rules",
+            "description": "Please read our server rules",
+            "color": "#3498db",
+            "thumbnail": {
+                "enabled": true,
+                "url": "https://images-ext-1.discordapp.net/external/H-XoefGFODrZatbFUJMuzyTGYmR6F04Q_Ll1jSEnyhU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1136549001982914650/de61fa57d050cbb6592a1d7216dff231.webp?format=webp&width=676&height=676"
+            },
+            "image": {
+                "enabled": true,
+                "url": "https://media.discordapp.net/attachments/1345185675816865853/1345185681361731635/background.png?ex=67c44a0a&is=67c2f88a&hm=bfe95e8054921ec28408adaa661d168bc8d056f805d36deec917bab6cced401b&=&format=webp&quality=lossless&width=1203&height=676"
+            },
+            "footer": {
+                "text": "Server Rules",
+                "iconUrl": "https://images-ext-1.discordapp.net/external/H-XoefGFODrZatbFUJMuzyTGYmR6F04Q_Ll1jSEnyhU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1136549001982914650/de61fa57d050cbb6592a1d7216dff231.webp?format=webp&width=676&height=676"
+            }
+        },
+        "sections": [
+            {
+                "enabled": true,
+                "name": "اقفقفتفقت",
+                "emoji": "🙄",
+                "description": "تقفتقفتقف",
+                "rules": "تفقتقفتف",
+                "embed": {
+                    "color": "#0099ff",
+                    "thumbnail": {
+                        "enabled": true,
+                        "url": "https://images-ext-1.discordapp.net/external/H-XoefGFODrZatbFUJMuzyTGYmR6F04Q_Ll1jSEnyhU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1136549001982914650/de61fa57d050cbb6592a1d7216dff231.webp?format=webp&width=676&height=676"
+                    },
+                    "image": {
+                        "enabled": true,
+                        "url": "https://media.discordapp.net/attachments/1345185675816865853/1345185681361731635/background.png?ex=67c44a0a&is=67c2f88a&hm=bfe95e8054921ec28408adaa661d168bc8d056f805d36deec917bab6cced401b&=&format=webp&quality=lossless&width=1203&height=676"
+                    },
+                    "footer": {
+                        "text": "تقفتفق",
+                        "iconUrl": "https://images-ext-1.discordapp.net/external/H-XoefGFODrZatbFUJMuzyTGYmR6F04Q_Ll1jSEnyhU/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1136549001982914650/de61fa57d050cbb6592a1d7216dff231.webp?format=webp&width=676&height=676"
+                    }
+                }
+            }
+        ]
+    }
+}
