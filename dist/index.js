@@ -127,7 +127,7 @@ class ModBot extends discord_js_1.Client {
     async deployCommands(commands) {
         try {
             console.log(`Started refreshing ${commands.length} application (/) commands.`);
-            const rest = new discord_js_1.REST().setToken(config_1.default.token);
+          
             await rest.put(discord_js_1.Routes.applicationCommands(config_1.default.clientId), { body: commands });
             console.log('Successfully reloaded application (/) commands.');
         }
