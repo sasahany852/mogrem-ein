@@ -109,7 +109,7 @@ const settings = loadSettingsFile();
 exports.default = {
     ...config,
     ...settings,
-    token: config.token,
+
     clientId: config.clientId,
     mongoUri: config.mongoUri,
     defaultPrefix: config.defaultPrefix,
