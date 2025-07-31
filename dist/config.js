@@ -3,8 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs_1 = require("fs");
 const path_1 = require("path");
 const config = {
-      token: '', 
-     clientId: '1001318190749601883', // bot id
+      
+
+   clientId: '1001318190749601883', // bot id
     mongoUri: 'mongodb://sasahany88:42227914012@db.wick.ink:27017/db_sasahany88?authSource=admin', // mongodb url
     defaultPrefix: '!',
     mainGuildId: '1019933320592756756', // main guild id
