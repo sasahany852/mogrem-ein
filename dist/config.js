@@ -4,7 +4,7 @@ const fs_1 = require("fs");
 const path_1 = require("path");
 const config = {
     token: process.env.TOKEN || '', // tokentoken: process.env.TOKEN || '', // token
-    clientId: '1395980900780605500', // bot id
+    clientId: '1404158331257622560', // bot id
     mongoUri: 'mongodb://sasahany88:42227914012@db.wick.ink:27017/db_sasahany88?authSource=admin', // mongodb url
     defaultPrefix: '/',
     mainGuildId: '1254601966718419044', // main guild id
