@@ -7,7 +7,7 @@ const config = {
     clientId: '1404158331257622560', // bot id
     mongoUri: 'mongodb://sasahany88:42227914012@db.wick.ink:27017/db_sasahany88?authSource=admin', // mongodb url
     defaultPrefix: '/',
-    mainGuildId: '1254601966718419044', // main guild id
+    mainGuildId: '1289243942222823525', // main guild id
     defaultLanguage: 'en',
     dashboard: {
         port: 3000,     // port for dashboard
