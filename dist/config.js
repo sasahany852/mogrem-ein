@@ -4,10 +4,10 @@ const fs_1 = require("fs");
 const path_1 = require("path");
 const config = {
     token: process.env.TOKEN || '', // tokentoken: process.env.TOKEN || '', // token
-    clientId: '1130874774227255369', // bot id
+    clientId: '1391597625211621427', // bot id
     mongoUri: 'mongodb://sasahany88:42227914012@db.wick.ink:27017/db_sasahany88?authSource=admin', // mongodb url
     defaultPrefix: '/',
-    mainGuildId: '1171716640270987375', // main guild id
+    mainGuildId: '1130874774227255369', // main guild id
     defaultLanguage: 'en',
     dashboard: {
         port: 3000,     // port for dashboard
